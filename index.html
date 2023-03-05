@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Boomburger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="lib/animate.min.css">
+    <link rel="stylesheet" href="lib/hover-min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="dist/styles.min.css">
+
+    <script src="lib/less.js"></script>
+</head>
+<body>
+
+<section class="main">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="menu">
+                <div class="close">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                        <g>
+                        	<g>
+                        		<path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                        			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                        			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                        			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                        			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                        			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                        			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+                        	</g>
+                        </g>
+                </svg>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#nav-result-menu" id="nav-menu">Меню</a>
+                    </li>
+                    <li>
+                        <a href="#nav-result-features" id="nav-features">Наши преимущества</a>
+                    </li>
+                    <li>
+                        <a href="#nav-result-info" id="nav-info">О Boomburger</a>
+                    </li>
+                    <li>
+                        <a href="#nav-result-feedback" id="nav-feedback">Отзывы</a>
+                    </li>
+                    <li>
+                        <a href="#nav-result-promo" id="nav-promo">Акции</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="burger-menu" class="burger-menu">
+                <img src="img/menu-burger.png" alt="Menu">
+            </div>
+            <div class="map">
+                <div class="map-img">
+                    <a href="#">
+                        <img src="img/map.png" alt="Map">
+                    </a>
+                </div>
+                <div class="address">
+                    г. Москва, м. Лубянка Никольская ул., 24
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-info wow animate__fadeIn">
+            <h1>Сочные бургеры <br> из свежих продуктов</h1>
+            <div class="main-info-description">
+                Приходите попробовать наши бургеры.
+                Благодаря открытой кухне вы сможете увидеть процесс
+                приготовления вашего любимого фастфуда
+            </div>
+            <div class="action">
+                <button class="button hvr-underline-from-center" id="reserve">Забронировать стол</button>
+            </div>
+            <div class="main-features">
+                <div class="main-features-wrap">
+                    <div class="features-img">
+                        <img src="img/chef.png" alt="Chef">
+                    </div>
+                    <div class="features-info">
+                        Огромный выбор бургеров
+                        из любого мяса, птицы и
+                        морепродуктов
+                    </div>
+                </div>
+                <div class="main-features-wrap">
+                    <div class="features-img">
+                        <img src="img/food-tray.png" alt="Food Tray">
+                    </div>
+                    <div class="features-info">
+                        Приготовим бургер любого
+                        размера за 15 минут или
+                        забирайте бесплатно
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-image-block wow animate__fadeInDown">
+            <img src="img/main-burger.png" alt="Main burger">
+            <div class="promotion">Акция <br>28.07-29.07</div>
+            <div class="promotion-price">550 руб.</div>
+            <div class="promotion-ex-price">850 руб.</div>
+            <div class="burger-banner">
+                <div class="burger-name">Грязный СанчеZ</div>
+                <div class="burger-description">котлета из мраморной говядины, бекон, сыр чеддер, салат, вишневый соус,
+                    фирменный соус
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="info-company" id="nav-result-info">
+    <div class="container">
+        <div class="info-company-wrap">
+            <h2>О BoomBorger</h2>
+            <div class="team-info-wrap">
+                <div class="team">Команда «BB» решила найти рецепт идеального бургера, который смог бы утолить любой
+                    голод и
+                    быть настоящим произведением искусства!
+                </div>
+                <div class="experience">Мы отправились в гастрономическое путешествие по разным странам, катались по
+                    городам
+                    Америки и Европы в поисках лучших секретов бургерной индустрии… но в результате поняли — идеальный
+                    бургер — это бургер, приготовленный из качественных ингредиентов.
+                </div>
+            </div>
+            <div class="info-company-image wow animate__slideInUp">
+                <img src="img/triple.png" alt="Triple Burger">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="difference" id="nav-result-features">
+    <div class="container">
+        <div class="difference-title">
+            <div class="title">Чем мы отличаемся</div>
+            <div class="title-image">
+                <img src="img/peper-left.png" alt="Pepper">
+            </div>
+        </div>
+        <div class="difference-wrap">
+            <div class="difference-wrap-item">
+                <div class="difference-item">
+                    <div class="difference-item-icon wow animate__zoomIn">
+                        <img src="img/plant.png" alt="Plant">
+                    </div>
+                    <div class="difference-description">
+                        Только натуральные
+                        фермерские продукты
+                    </div>
+                </div>
+                <div class="difference-item">
+                    <div class="difference-item-icon wow animate__zoomIn">
+                        <img src="img/cooking.png" alt="Cooking">
+                    </div>
+                    <div class="difference-description">
+                        Открытая кухня —
+                        посмотрите, как готовится
+                        ваш бургер
+                    </div>
+                </div>
+            </div>
+            <div class="difference-wrap-item wow animate__zoomIn">
+                <div class="difference-image-center ">
+                    <img src="img/difference.png" alt="Burger">
+                </div>
+            </div>
+            <div class="difference-wrap-item second">
+                <div class="difference-item ">
+                    <div class="difference-item-icon wow animate__zoomIn">
+                        <img src="img/people.png" alt="People">
+                    </div>
+                    <div class="difference-description">
+                        В нашем ресторане
+                        всегда атмосфера
+                        праздника
+                    </div>
+                </div>
+                <div class="difference-item">
+                    <div class="difference-item-icon wow animate__zoomIn">
+                        <img src="img/animal.png" alt="Animal">
+                    </div>
+                    <div class="difference-description">
+                        Dog friendly — к нам
+                        можно с четвероногим
+                        другом
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="menu-restaurant" id="nav-result-menu">
+    <div class="container">
+        <h2>Меню</h2>
+        <div class="menu-icons-wrap">
+            <div class="menu-icons">
+                <div class="menu-icons-item wow animate__zoomIn" id="chicken">
+                    <img src="img/chicken.png" alt="Chicken">
+                    <span>цыпленок</span>
+                </div>
+                <div class="menu-icons-item wow animate__zoomIn" id="beef">
+                    <img src="img/cow.png" alt="Cow">
+                    <span>говядина</span>
+                </div>
+                <div class="menu-icons-item wow animate__zoomIn" id="duck">
+                    <img src="img/duck.png" alt="Duck">
+                    <span>утка</span>
+                </div>
+                <div class="menu-icons-item wow animate__zoomIn" id="cancer">
+                    <img src="img/crab.png" alt="crab">
+                    <span>краб</span>
+                </div>
+            </div>
+        </div>
+        <div class="carousel meat">
+            <div class="carousel-item">
+                <img src="img/carousel1.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Грязный СанчеZ</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel2.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Красавчик Элвин</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, помидор, салат,
+                    фирменный соус барбекю
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel3.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Местный шериф</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, маринованный
+                    огурчик, сыр чеддер,
+                    помидор, салат
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel4.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Дух Капитализма</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, помидор, салат,
+                    фирменный соус барбекю
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel5.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Альбинос Марвин</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    курицы, сыр
+                    чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel6.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Джанго Освабаждённый</div>
+                <div class="carousel-item-description">
+                    котлета говядины, помидрор, сыр
+                    чеддер, салат, чёрная булочка,
+                    фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel7.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Вождь Апачи</div>
+                <div class="carousel-item-description">
+                    четыре котлеты из мраморной
+                    говядины, чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel8.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Храмые ноги</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+        </div>
+        <div class="carousel chicken">
+            <div class="carousel-item">
+                <img src="img/carousel1.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Грязный СанчеZ</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel2.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Красавчик Элвин</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, помидор, салат,
+                    фирменный соус барбекю
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel3.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Местный шериф</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, маринованный
+                    огурчик, сыр чеддер,
+                    помидор, салат
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel4.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Дух Капитализма</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, помидор, салат,
+                    фирменный соус барбекю
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel5.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Альбинос Марвин</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    курицы, сыр
+                    чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel6.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Джанго Освабаждённый</div>
+                <div class="carousel-item-description">
+                    котлета говядины, помидрор, сыр
+                    чеддер, салат, чёрная булочка,
+                    фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel7.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Вождь Апачи</div>
+                <div class="carousel-item-description">
+                    четыре котлеты из мраморной
+                    говядины, чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel8.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Храмые ноги</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+        </div>
+        <div class="carousel duck">
+            <div class="carousel-item">
+                <img src="img/carousel1.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Грязный СанчеZ</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel2.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Красавчик Элвин</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, помидор, салат,
+                    фирменный соус барбекю
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel3.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Местный шериф</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, маринованный
+                    огурчик, сыр чеддер,
+                    помидор, салат
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel4.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Дух Капитализма</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, помидор, салат,
+                    фирменный соус барбекю
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel5.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Альбинос Марвин</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    курицы, сыр
+                    чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel6.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Джанго Освабаждённый</div>
+                <div class="carousel-item-description">
+                    котлета говядины, помидрор, сыр
+                    чеддер, салат, чёрная булочка,
+                    фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel7.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Вождь Апачи</div>
+                <div class="carousel-item-description">
+                    четыре котлеты из мраморной
+                    говядины, чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel8.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Храмые ноги</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+        </div>
+        <div class="carousel cancer">
+            <div class="carousel-item">
+                <img src="img/carousel1.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Грязный СанчеZ</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel2.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Красавчик Элвин</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, помидор, салат,
+                    фирменный соус барбекю
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel3.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Местный шериф</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, маринованный
+                    огурчик, сыр чеддер,
+                    помидор, салат
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel4.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Дух Капитализма</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, помидор, салат,
+                    фирменный соус барбекю
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel5.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Альбинос Марвин</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    курицы, сыр
+                    чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel6.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Джанго Освабаждённый</div>
+                <div class="carousel-item-description">
+                    котлета говядины, помидрор, сыр
+                    чеддер, салат, чёрная булочка,
+                    фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel7.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Вождь Апачи</div>
+                <div class="carousel-item-description">
+                    четыре котлеты из мраморной
+                    говядины, чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel8.png" alt="Photo of Burger">
+                <div class="carousel-item-title">Храмые ноги</div>
+                <div class="carousel-item-description">
+                    котлета из мраморной
+                    говядины, бекон, сыр
+                    чеддер, салат, вишневый
+                    соус, фирменный соус
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="feedbacks" id="nav-result-feedback">
+    <div class="container">
+        <div class="feedback-title">
+            <img src="img/peper-right.png" alt="Pepper">
+            <h2>Отзывы</h2>
+        </div>
+        <div class="feedbacks-carousel">
+            <div class="feedbacks-carousel-item">
+                <div class="name-media-wrap">
+                    <div class="media-feedback">
+                        <img src="img/facebook.png" alt="Facebook">
+                        <img src="img/instagram.png" alt="Instagram">
+                        <div class="name-feedback">Роман</div>
+                    </div>
+                    <div class="feedback-user-image">
+                        <img src="img/person-1.png" alt="User">
+                    </div>
+                </div>
+                <div class="favorites-title">
+                    Любимый бургер:
+                </div>
+                <div class="favorite-title-description">
+                    Самая быстрая курочка Запада (KING SIZE)
+                </div>
+                <div class="favorite-burger-description">
+                    Круто отметили день рождения
+                    Прекрасное обслуживание, заказали
+                    15 бургеров на всех, никто не остался
+                    равнодушным! В общем Я рекомендую этот
+                    ресторан - Наш ресторан.
+                </div>
+            </div>
+            <div class="feedbacks-carousel-item">
+                <div class="name-media-wrap">
+                    <div class="media-feedback">
+                        <img src="img/facebook.png" alt="Facebook">
+                        <img src="img/instagram.png" alt="Instagram">
+                        <div class="name-feedback">Мария</div>
+                    </div>
+                    <div class="feedback-user-image">
+                        <img src="img/person-2.png" alt="User">
+                    </div>
+                </div>
+                <div class="favorites-title">
+                    Любимый бургер:
+                </div>
+                <div class="favorite-title-description">
+                    Синий крабсбургер
+                </div>
+                <div class="favorite-burger-description">
+                    Очень нравится формат заведения, такого раньше не видела! Бургеры очень интересные по вкусу.
+                    Ингредиенты тоже супер: необычные, качественные, вкусные (корень лотоса, морепродукты).
+                </div>
+            </div>
+            <div class="feedbacks-carousel-item">
+                <div class="name-media-wrap">
+                    <div class="media-feedback">
+                        <img src="img/facebook.png" alt="Facebook">
+                        <img src="img/instagram.png" alt="Instagram">
+                        <div class="name-feedback">Наталия</div>
+                    </div>
+                    <div class="feedback-user-image">
+                        <img src="img/person-3.png" alt="User">
+                    </div>
+                </div>
+                <div class="favorites-title">
+                    Любимый бургер:
+                </div>
+                <div class="favorite-title-description">
+                    Синий крабсбургер
+                </div>
+                <div class="favorite-burger-description">
+                    О кухне слышала много хороших отзывов,все правда. Большие порции, опять таки оооочень вкусно.
+                    Рекомендую этот ресторан, всем именинникам – каждому уделяют особое внимание.
+                </div>
+            </div>
+            <div class="feedbacks-carousel-item">
+                <div class="name-media-wrap">
+                    <div class="media-feedback">
+                        <img src="img/facebook.png" alt="Facebook">
+                        <img src="img/instagram.png" alt="Instagram">
+                        <div class="name-feedback">Alex</div>
+                    </div>
+                    <div class="feedback-user-image">
+                        <img src="img/person-3.png" alt="User">
+                    </div>
+                </div>
+                <div class="favorites-title">
+                    Любимый бургер:
+                </div>
+                <div class="favorite-title-description">
+                    Джанго Освабождённый
+                </div>
+                <div class="favorite-burger-description">
+                    Круто отметили день рождения
+                    Прекрасное обслуживание, заказали
+                    15 бургеров на всех, никто не остался
+                    равнодушным! В общем Я рекомендую этот
+                    ресторан - Наш ресторан.
+                </div>
+            </div>
+            <div class="feedbacks-carousel-item">
+                <div class="name-media-wrap">
+                    <div class="media-feedback">
+                        <img src="img/facebook.png" alt="Facebook">
+                        <img src="img/instagram.png" alt="Instagram">
+                        <div class="name-feedback">Маша</div>
+                    </div>
+                    <div class="feedback-user-image">
+                        <img src="img/person-3.png" alt="User">
+                    </div>
+                </div>
+                <div class="favorites-title">
+                    Любимый бургер:
+                </div>
+                <div class="favorite-title-description">
+                    Альбинос Марвин
+                </div>
+                <div class="favorite-burger-description">
+                    О кухне слышала много хороших отзывов,все правда. Большие порции, опять таки оооочень вкусно.
+                    Рекомендую этот ресторан, всем именинникам – каждому уделяют особое внимание.
+                </div>
+            </div>
+            <div class="feedbacks-carousel-item">
+                <div class="name-media-wrap">
+                    <div class="media-feedback">
+                        <img src="img/facebook.png" alt="Facebook">
+                        <img src="img/instagram.png" alt="Instagram">
+                        <div class="name-feedback">Кайрат</div>
+                    </div>
+                    <div class="feedback-user-image">
+                        <img src="img/person-3.png" alt="User">
+                    </div>
+                </div>
+                <div class="favorites-title">
+                    Любимый бургер:
+                </div>
+                <div class="favorite-title-description">
+                    Вождь Апачи
+                </div>
+                <div class="favorite-burger-description">
+                    Очень нравится формат заведения, такого раньше не видела! Бургеры очень интересные по вкусу.
+                    Ингредиенты тоже супер: необычные, качественные.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="promo" id="nav-result-promo">
+    <div class="container">
+        <div class="promo-title">
+            Наши акции
+        </div>
+        <div class="promo-item-wrap wow animate__zoomIn">
+            <div class="item-1">
+                <img src="img/vegan.png" alt="Vegan">
+            </div>
+            <div class="item-2">
+                <img src="img/burger-test.png" alt="Test">
+            </div>
+            <div class="item-3">
+                <img src="img/sea-food.png" alt="Sea Food">
+            </div>
+            <div class="sss1">
+                <img src="img/ssss1.png" alt="Sea Food">
+            </div>
+            <div class="item-4">
+                <img src="img/holiday.png" alt="Holiday">
+            </div>
+            <div class="sss2">
+                <img src="img/ssss2.png" alt="Holiday">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="order" id="reservation">
+    <div class="container">
+        <div class="order-title">Забронировать стол</div>
+        <div class="order-wrap">
+            <div class="order-image">
+                <img src="img/order.png" alt="Order-Burger">
+            </div>
+            <form action="" class="order-form">
+                <div class="order-form-description">
+                    Ждем тебя в BoomBurger прямо сейчас. Оформи бронь в течение 30 минут
+                    и получи напиток в подарок!
+                </div>
+                <div class="order-count-down">
+                    <div class="count-item">3</div>
+                    <div class="count-item">0</div>
+                    <div class="count-item">:</div>
+                    <div class="count-item">0</div>
+                    <div class="count-item">0</div>
+                </div>
+                <div class="time">
+                    <div class="min">минуты</div>
+                    <div class="min">секунды</div>
+                </div>
+                <input type="text" class="order-name" placeholder="Ваше имя" id="name">
+                <div class="error">Введите ваше имя</div>
+                <input type="text" class="order-phone" placeholder="+7(___)___-__-_" id="phone">
+                <div class="error">Введите ваш номер</div>
+                <button type="button" class="order-btn hvr-underline-from-center" id="submit-form">Забронировать стол
+                </button>
+                <div class="policy">
+                    Нажимая на кнопку вы подтверждаете ваше согласие с <a href="#"> политикой конфиденциальности
+                </a> <br> и обработкой персональных данных
+                </div>
+            </form>
+        </div>
+        <div class="order-image-last">
+            <img src="img/double-peper.png" alt="Pepper">
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-image">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <div class="footer-address">
+            г. Москва, м.Лубянка, Никольская ул., 24 <br>
+            +7 (495) 221-24-34, +7 (495) 287-24-96
+        </div>
+        <div class="footer-media">
+            <img src="img/facebook-f.png" alt="Facebook">
+            <img src="img/instagram-f.png" alt="Instagram">
+            <img src="img/youtube-f.png" alt="Youtube">
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<div class="thanks-container" id="thanks-container">
+    <div class="thanks">
+        <div class="close" id="close">
+            <img src="img/close.png" alt="Close">
+        </div>
+        <div class="thanks-text">Спасибо, что выбрали наш ресторан!</div>
+        <div class="callback">В течение 15 минут наши менеджеры свяжутся с вами для подтверждения брони</div>
+        <div class="thanks-image">
+            <img src="img/thanks.png" alt="Burger">
+        </div>
+    </div>
+</div>
+
+<div class="loader">
+    <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</div>
+
+
+
+<script src="lib/jquery-3.6.3.min.js"></script>
+<script src="lib/jquery-ui.min.js"></script>
+<script src="lib/slick.js"></script>
+<script src="lib/wow.min.js"></script>
+<script src="lib/jquery.maskedinput.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
